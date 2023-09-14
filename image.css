@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    height: 50%;
+    width:50%;
+    margin-top:85px;
+    margin-left: 21rem;  
+}
+.slider > img{
+    position: absolute;
+    box-shadow: none;
+    width: 50%;
+    height: 50% ;
+}
+
+#left{
+    width: 3rem;
+    height: 2rem;
+    position: absolute;
+    margin-left: 23em;
+    border: none;
+    margin-top: 24em;
+}
+#right{
+    width: 3rem;
+    height: 2rem; 
+    position: absolute;
+    border:none;
+    margin-top: 24em;
+    margin-left: 15rem;
+}
+
+#left > img{
+   
+    width: 3rem;
+    height: 2rem;
+}
+
+#right > img{
+    width: 3rem;
+    height: 2rem;
+}
